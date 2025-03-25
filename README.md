@@ -9,6 +9,7 @@ A Python tool for automatically analyzing Annual General Meeting (AGM) feedback 
 - **Automatic Clustering**: Groups similar feedback together
 - **Visualizations**: Generates word clouds and distribution charts
 - **Excel Reports**: Creates organized output with multiple sheets
+- **Automated report generation**
 
 ## How to Use (Directly on GitHub)
 
@@ -21,7 +22,7 @@ A Python tool for automatically analyzing Annual General Meeting (AGM) feedback 
    - Or use GitHub Actions (set up workflow to run periodically)
 
 ## File Structure
-python analyze_feedback.py --input sample_input.csv --output outputs/results.xlsx
+--input sample_input.csv --output outputs/results.xlsx
 
 ## Requirements
 The script requires these Python packages (automatically installed when using Codespaces):
