@@ -64,16 +64,16 @@ Submit a pull request
 
 ## Optional
 If you would like to save your analysis in an excel file you can add this piece of code at the end.
-# if __name__ == "__main__":
-    # Hardcode paths for Jupyter (or use interactive selection)
-    input_path = r"C:\path\Cleaned_File.csv"  # ← Change this
-    output_path = r"C:\path\File-Analyzed.xlsx"  # ← Change this
+   if __name__ == "__main__":
+       # Hardcode paths for Jupyter (or use interactive selection)
+       input_path = r"C:\path\Cleaned_File.csv"  # ← Change this
+       output_path = r"C:\path\File-Analyzed.xlsx"  # ← Change this
     
-    # Run analysis without command-line arguments
-    check_dependencies()
-    analyze_feedback(
-        input_path=input_path,
-        output_path=output_path,
-        num_topics=3,  # Customize as needed
-        num_clusters=3  # Customize as needed
-    )
+       # Run analysis without command-line arguments
+       check_dependencies()
+       analyze_feedback(
+           input_path=input_path,
+           output_path=output_path,
+           num_topics=3,  # Customize as needed
+           num_clusters=3  # Customize as needed
+       )
